@@ -37,7 +37,6 @@ export default function Album({ setRooms }) {
   const handleClickOpen3 = () => {
     setOpen3(true);
   };
-
   const handleClose = () => {
     setOpen(false);
   };
@@ -253,7 +252,6 @@ export default function Album({ setRooms }) {
           <Button onClick={() => navigate(`/room/${roomId}`)} style={{ color: "blue" }}>Join</Button>
         </DialogActions>
       </Dialog>
-
     </>
   );
 }

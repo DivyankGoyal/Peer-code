@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import "./App.css";
 import Join from "./components/Join";
 import Rooms from "./components/Rooms";
+import "./App.css";
 
 const App = () => {
   const [rooms, setRooms] = useState({});

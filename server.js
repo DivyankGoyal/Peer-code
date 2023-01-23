@@ -35,7 +35,7 @@ io.on("connection", (socket) => {
     console.log(roomDbId);
     socket.join(roomDbId);
   });
-  socket.on("enteringCode", async ({ code, roomDbId }) => {
+  socket.on("enteringCode", async ({ code, roomDbId }) => {``
     console.log(code);
     await Code.findOneAndUpdate(
       { _id: roomDbId },
